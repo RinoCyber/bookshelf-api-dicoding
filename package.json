@@ -1,0 +1,23 @@
+{
+  "name": "bookshelf-api-dicoding",
+  "version": "1.0.0",
+  "description": "a bookshelf API for dicoding submission",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \\\"Error: no test specified\\\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RinoCyber/bookshelf-api-dicoding.git"
+  },
+  "keywords": [
+    "node",
+    "js"
+  ],
+  "author": "Muhammad Sabrino Raharjo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RinoCyber/bookshelf-api-dicoding/issues"
+  },
+  "homepage": "https://github.com/RinoCyber/bookshelf-api-dicoding#readme"
+}
