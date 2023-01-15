@@ -129,7 +129,7 @@ const deleteNoteByIdHandler = (request, h) => {
 
 // bookshelf API handler
 const addBookHandler = (request, h) => {
-  let { reqPayload } = request.payload;
+  const reqPayload = request.payload;
   let response = h
     .response({
       status: "error",
