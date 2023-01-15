@@ -4,7 +4,10 @@
   "description": "a bookshelf API for dicoding submission",
   "main": "index.js",
   "scripts": {
-    "test": "echo \\\"Error: no test specified\\\" && exit 1"
+    "test": "echo \\\"Error: no test specified\\\" && exit 1",
+    "start": "node ./src/index.js",
+    "dev": "nodemon ./src/index.js",
+    "lint": "eslint ./src"
   },
   "repository": {
     "type": "git",
@@ -21,6 +24,14 @@
   },
   "homepage": "https://github.com/RinoCyber/bookshelf-api-dicoding#readme",
   "devDependencies": {
+    "eslint": "^8.31.0",
+    "eslint-config-google": "^0.14.0",
     "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "@hapi/hapi": "^21.1.0",
+    "hapi-cors": "^1.0.3",
+    "http2": "^3.3.7",
+    "nanoid": "^3.3.4"
   }
 }
