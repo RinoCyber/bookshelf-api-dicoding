@@ -1,4 +1,4 @@
-# bookshelf-api-dicoding
+# Bookshelf API (Dicoding submission)
 
 Tugas Submission Dicoding Bookshelf API
 
